@@ -139,9 +139,9 @@
 // tom("pass_for_Tom"); //повертає true
 // tom("pass_for_tom"); //повертає false
 
-const create = (string) => {
-  return (string1) => {
-    return string === string1;
+const create = (initialString) => {
+  return (secondString) => {
+    return initialString === secondString;
   };
 };
 

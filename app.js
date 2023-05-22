@@ -141,7 +141,7 @@
 
 const create = (string) => {
   return (string1) => {
-    return string === string1 ? true : false;
+    return string === string1;
   };
 };
 

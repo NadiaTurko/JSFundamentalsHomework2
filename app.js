@@ -4,6 +4,11 @@
 // 1.
 // Дано три цілих числа: a, b, c. Перевірте істинність висловлювання:
 //  a < b < c
+if (a < b && b < c && a < c) {
+  console.log(true);
+} else {
+  console.log(false);
+}
 // const a = 5;
 // const b = 15;
 // const c = 65;

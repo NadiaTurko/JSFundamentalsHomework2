@@ -112,32 +112,34 @@
 // const number1 = Number(prompt("Enter first number: "));
 // const operator = prompt("Enter operator ( either +, -, * or /");
 // const number2 = Number(prompt("Enter second number: "));
+// function culc() {
+//   switch (operator) {
+//     case "+":
+//       result = number1 + number2;
+//       alert(`${number1} + ${number2} = ${result}`);
+//       break;
 
-// switch (operator) {
-//   case "+":
-//     result = number1 + number2;
-//     alert(`${number1} + ${number2} = ${result}`);
-//     break;
+//     case "-":
+//       result = number1 - number2;
+//       alert(`${number1} - ${number2} = ${result}`);
+//       break;
 
-//   case "-":
-//     result = number1 - number2;
-//     alert(`${number1} - ${number2} = ${result}`);
-//     break;
+//     case "*":
+//       result = number1 * number2;
+//       alert(`${number1} * ${number2} = ${result}`);
+//       break;
 
-//   case "*":
-//     result = number1 * number2;
-//     alert(`${number1} * ${number2} = ${result}`);
-//     break;
+//     case "/":
+//       result = number1 / number2;
+//       alert(`${number1} / ${number2} = ${result}`);
+//       break;
 
-//   case "/":
-//     result = number1 / number2;
-//     alert(`${number1} / ${number2} = ${result}`);
-//     break;
-
-//   default:
-//     console.log("Invalid operator");
-//     break;
+//     default:
+//       console.log("Invalid operator");
+//       break;
+//   }
 // }
+// culc(number1, number2);
 // 7.
 // Напишіть функцію findUnique(arr), яка приймає масив arr і перевіряє на унікальність його елементи.
 //  Якщо всі елементи масиву унікальні (не мають дублів), то функція поверне true, інакше - false.

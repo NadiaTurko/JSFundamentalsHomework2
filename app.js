@@ -82,12 +82,16 @@
 // const a = Number(prompt("Введіть сторону a в трикутнику"));
 // const b = Number(prompt("Введіть сторону b в трикутнику"));
 // const c = Number(prompt("Введіть сторону c в трикутнику"));
-// const halfP = (a + b + c) / 2;
-// const formulaHerona = Math.sqrt(
-//   halfP * (halfP - a) * (halfP - b) * (halfP - c)
-// ).toFixed(3);
-// const areaTriangle = a > 0 && b > 0 && c > 0 ? formulaHerona : `Incorrect data`;
-// console.log(areaTriangle);
+// const areaTriangle = function () {
+//   let areaTriangleResult;
+//   const halfP = (a + b + c) / 2;
+//   const formulaHerona = Math.sqrt(
+//     halfP * (halfP - a) * (halfP - b) * (halfP - c)
+//   ).toFixed(3);
+//   return (areaTriangleResult =
+//     a > 0 && b > 0 && c > 0 ? formulaHerona : `Incorrect data`);
+// };
+// console.log(areaTriangle());
 
 // const rightTriangle = function () {
 //   const sideA = Math.sqrt(Math.pow(c, 2) + Math.pow(b, 2)) === a;

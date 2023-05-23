@@ -88,6 +88,20 @@
 // ).toFixed(3);
 // const areaTriangle = a > 0 && b > 0 && c > 0 ? formulaHerona : `Incorrect data`;
 // console.log(areaTriangle);
+
+// const rightTriangle = function () {
+//   const sideA = Math.sqrt(Math.pow(c, 2) + Math.pow(b, 2)) === a;
+//   console.log(a);
+//   const sideB = Math.sqrt(Math.pow(c, 2) + Math.pow(a, 2)) === b;
+//   console.log(b);
+//   const sideC = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2)) === c;
+//   console.log(c);
+//   if (sideA || sideB || sideC) {
+//     return "Даний трикутник є прямокутним";
+//   } else {
+//     return "Даний трикутник не є прямокутним";
+//   }
+// };
 // 6.
 // Напишіть функцію calc(a, b, op), яка виконує над числами a і b одну із арифметичних операцій та повертає її результат.
 // Вид операції визначається цілим числом op: 1 – віднімання, 2 – добуток, 3 – ділення, інші значення – додавання.

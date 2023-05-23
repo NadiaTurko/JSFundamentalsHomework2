@@ -50,23 +50,24 @@
 // Задано масив чисел, знайти число яке найбільш часто входить в масив, занести це число в новий масив
 //і видалити всі входження цього числа із поточного масиву.
 // let arr1 = [4, 5, 2, 1, 6, 5, 3, 5, 2, 5];
-// let mf = 1;
-// let m = 0;
+// let uniqueCounter = 1;
+// let initialCounter = 0;
 // let data;
 // for (let i = 0; i < arr1.length; i++) {
 //   for (let j = i; j < arr1.length; j++) {
-//     if (arr1[i] == arr1[j]) m++;
-//     if (mf < m) {
-//       mf = m;
+//     if (arr1[i] == arr1[j]) initialCounter++;
+//     if (uniqueCounter < initialCounter) {
+//       uniqueCounter = initialCounter;
 //       data = arr1[i];
 //     }
 //   }
-//   m = 0;
+//   initialCounter = 0;
 // }
-// arr1 = arr1.filter(function (value) {  return value != data;});
+// arr1 = arr1.filter(function (value) {
+//   return value != data;
+// });
 // console.log(data);
 // console.log(arr1); // [4, 2, 1, 6, 3, 2]
-
 // 5.
 // Користувач вводить три довжини сторін трикутника (використовуйте prompt () три рази для введення кожної сторони).
 // Необхідно

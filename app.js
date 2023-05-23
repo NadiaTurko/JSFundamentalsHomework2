@@ -55,7 +55,7 @@
 // Задано масив чисел, знайти число яке найбільш часто входить в масив, занести це число в новий масив
 //і видалити всі входження цього числа із поточного масиву.
 // let arr1 = [4, 5, 2, 1, 6, 5, 3, 5, 2, 5];
-// let uniqueCounter = 1;
+// let uniqueCounter = 0;
 // let initialCounter = 0;
 // let data;
 // for (let i = 0; i < arr1.length; i++) {
@@ -66,7 +66,6 @@
 //       data = arr1[i];
 //     }
 //   }
-//   initialCounter = 0;
 // }
 // arr1 = arr1.filter(function (value) {
 //   return value != data;
